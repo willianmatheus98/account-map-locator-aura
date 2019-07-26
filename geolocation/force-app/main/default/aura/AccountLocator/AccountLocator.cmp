@@ -1,0 +1,26 @@
+<!--
+  @Component Name     : AccountLocator.cmp
+  @Description        : 
+  @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Group              : 
+  @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
+  @Last Modified On   : 26/07/2019 10:59:49
+  @Modification Log   : 
+  ==============================================================================
+  Ver         Date                     Author      		      Modification
+  ==============================================================================
+  1.0    26/07/2019 10:59:49   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
+-->
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes">
+    <lightning:layout horizontalAlign="space" multipleRows="true">
+        <lightning:layoutItem size="12" mediumDeviceSize="12" padding="around-small">
+            <c:AccountSearch />
+        </lightning:layoutItem>
+        <lightning:layoutItem size="12" mediumDeviceSize="6" padding="around-small">
+            <c:AccountList />
+        </lightning:layoutItem>
+        <lightning:layoutItem size="12" mediumDeviceSize="6" padding="around-small">
+            <c:AccountMap />
+        </lightning:layoutItem>
+    </lightning:layout>
+</aura:component>
